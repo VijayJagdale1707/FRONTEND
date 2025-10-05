@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML BOOTCAMP</title>
+</head>
+<body>
+    <h1>Welcome To HTML BootCamp!</h1>
+    <p>This page demonstrates HTML elements like tables, lists, forms, and semantic tags.</p>
+
+    <!-- Unordered List -->
+    <h2>Team Members</h2>
+    <ul type="circle">
+        <li>Yash</li>
+        <li>Mayank</li>
+        <li>Ankush</li>
+        <li>Keerthi</li>
+        <li>Ramesh</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h2>Steps to Join the Bootcamp</h2>
+    <ol type="A" start="1">
+        <li>Fill out the registration form</li>
+        <li>Submit your application</li>
+        <li>Wait for confirmation email</li>
+    </ol>
+
+    <!-- Table -->
+    <h2>Participant Information</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>Yash</td>
+            <td>yash@gmail.com</td>
+            <td>Pune</td>
+        </tr>
+        <tr>
+            <td>Anjali</td>
+            <td>anjali@gmail.com</td>
+            <td>Mumbai</td>
+        </tr>
+        <tr>
+            <td>Vijay</td>
+            <td>vijay@gmail.com</td>
+            <td>Chakan</td>
+        </tr>
+    </table>
+
+    <!-- Form -->
+    <h2>Register Now!</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" minlength="3" maxlength="50" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <label for="age">Select Age Range:</label>
+        <select id="age" name="age" required>
+            <option value="">--Select Age Range--</option>
+            <option value="18-24">18–24</option>
+            <option value="25-34">25–34</option>
+            <option value="35-44">35–44</option>
+            <option value="45-54">45–54</option>
+            <option value="55+">55+</option>
+        </select>
+        <br><br>
+
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Subscribe to our newsletter</label>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Semantic Tags -->
+    <main>
+        <header>
+            <h3>This is my header section</h3>
+        </header>
+        <section>
+            <aside>
+                <p>This is the sidebar content (aside section).</p>
+            </aside>
+            <div>
+                <p>This is the main section content.</p>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2025 HTML BootCamp. All rights reserved.</p>
+        </footer>
+    </main>
+</body>
+</html>
